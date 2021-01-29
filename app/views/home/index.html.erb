@@ -1,9 +1,23 @@
-<br>
-
 <div class="container">
   <div class="pl-1">
     <div class="btn-group-vertical">
       <%= link_to "Задачи", todo_issues_path, class: "btn btn-outline-secondary"  %>
     </div>
+  </div>
+</div>
+
+<div class="container mt-3">
+  <div class="pl-1 pt-2 border-top border-secondary">
+    <nav aria-label="breadcrumb  border border-secondary">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Дом</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Уборка</li>
+      </ol>
+    </nav>
+
+    <p>
+      <strong>Полить цветы:</strong>
+      <span class="badge rounded-pill bg-success"><%= "< 15 min" %></span>
+    </p>
   </div>
 </div>
